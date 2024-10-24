@@ -11,7 +11,7 @@ body {
 .container {
     height: 600px;
     padding-left: 2px;
-    width: 460px;
+    width: 400px;
     background-color: gray;
     display: flex;
     flex-direction: column;
@@ -23,7 +23,7 @@ body {
     flex-direction: column;
     flex-wrap: wrap;
     min-height: 140px;
-    width: 440px;
+    width: 95%;
     background-color: rgba(245, 245, 245, 0.747);
     margin: 25px auto;
 }
@@ -55,7 +55,7 @@ body {
 
 button {
     height: 70px;
-    width: 100px;
+    width: 90px;
     margin: 4px 4px;
     border-radius: 10px;
     font-size: 2rem;
@@ -69,7 +69,7 @@ button:hover {
 
 
 .double-span {
-    width: 200px;
+    width: 180px;
 }
 
 #clear {
