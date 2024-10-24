@@ -10,7 +10,8 @@ body {
 
 .container {
     height: 600px;
-    width: 480px;
+    padding-left: 2px;
+    width: 460px;
     background-color: gray;
     display: flex;
     flex-direction: column;
