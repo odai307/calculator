@@ -20,19 +20,24 @@ body {
 .screen {
     display: flex;
     flex-direction: column;
-    height: 140px;
+    flex-wrap: wrap;
+    min-height: 140px;
     width: 440px;
     background-color: rgba(245, 245, 245, 0.747);
     margin: 25px auto;
 }
 
 .child-screen {
-    height: 70px;
-    border: 1px solid black;
+    min-height: 70px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
     font-size: 2.5rem;
+    margin-right: 10px;
+}
+
+.previous-operand {
+    font-size: 1.5rem;
 }
 
 .borders {
@@ -56,6 +61,21 @@ button {
     background-color: white;
 }
 
+button:hover {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+
+
 .double-span {
     width: 200px;
+}
+
+#clear {
+    background-color: rgba(165, 42, 42, 0.658);
+    color: wheat;
+}
+
+#clear:hover {
+    background-color: rgba(165, 42, 42, 0.8);;
 }
